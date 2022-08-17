@@ -1,0 +1,7 @@
+#include "Pods/Target Support Files/Pods-MultiSchemeDemo/Pods-MultiSchemeDemo.test.xcconfig"
+#include "BaseScheme.xcconfig"
+
+PRODUCT_BUNDLE_NAME = $(inherited) Test
+PRODUCT_DISPLAY_NAME = $(inherited) Test
+PRODUCT_BUNDLE_IDENTIFIER = com.lian.MultiSchemeDemo
+ONLY_ACTIVE_ARCH = YES

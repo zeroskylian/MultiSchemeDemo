@@ -1,0 +1,10 @@
+PRODUCT_VERSION_SUFFIX = 19
+PRODUCT_VERSION_BASE = 1.8.0
+PRODUCT_VERSION = $(PRODUCT_VERSION_BASE).$(PRODUCT_VERSION_SUFFIX)
+
+PRODUCT_BUNDLE_NAME = MultiSchemeDemo
+PRODUCT_DISPLAY_NAME = MultiSchemeDemo
+PRODUCT_NAME = MultiSchemeDemo
+
+WARNING_CFLAGS = $(inherited) -Wno-nullability-completeness
+OTHER_SWIFT_FLAGS = $(inherited) -Xcc -Wno-nullability-completeness

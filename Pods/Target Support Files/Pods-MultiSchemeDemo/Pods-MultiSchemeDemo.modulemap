@@ -1,0 +1,6 @@
+module Pods_MultiSchemeDemo {
+  umbrella header "Pods-MultiSchemeDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
